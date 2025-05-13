@@ -1,0 +1,55 @@
+﻿    
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCommerce.RestAPI", "presentation\NetCommerce.RestAPI\NetCommerce.RestAPI.csproj", "{969BC7F6-1CC4-4800-9113-236F09C11DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCommerce.Domain", "core\NetCommerce.Domain\NetCommerce.Domain.csproj", "{334DA624-B5FF-4D82-B6B9-F8469C775BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCommerce.Tests", "test\NetCommerce.Tests\NetCommerce.Tests.csproj", "{024D7042-4D21-4A9A-92C4-99A30E5D959A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1603DCAE-56B3-4DDE-8E84-8F93661B7424}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4211B23F-F5BA-404D-83A6-33CCFFD06376}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7568FE87-9114-4092-A78B-3AB373718682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCommerce.Application", "core\NetCommerce.Application\NetCommerce.Application.csproj", "{C0B412A8-4D8D-4E50-B9C3-B7F0F7415B1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DB355373-4490-41DA-A452-F8B25F090E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCommerce.Persistence", "infra\NetCommerce.Persistence\NetCommerce.Persistence.csproj", "{F447B8FE-B9BE-43BF-A77A-E87D7E849496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{969BC7F6-1CC4-4800-9113-236F09C11DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969BC7F6-1CC4-4800-9113-236F09C11DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969BC7F6-1CC4-4800-9113-236F09C11DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969BC7F6-1CC4-4800-9113-236F09C11DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334DA624-B5FF-4D82-B6B9-F8469C775BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334DA624-B5FF-4D82-B6B9-F8469C775BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334DA624-B5FF-4D82-B6B9-F8469C775BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334DA624-B5FF-4D82-B6B9-F8469C775BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024D7042-4D21-4A9A-92C4-99A30E5D959A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024D7042-4D21-4A9A-92C4-99A30E5D959A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024D7042-4D21-4A9A-92C4-99A30E5D959A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024D7042-4D21-4A9A-92C4-99A30E5D959A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B412A8-4D8D-4E50-B9C3-B7F0F7415B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B412A8-4D8D-4E50-B9C3-B7F0F7415B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B412A8-4D8D-4E50-B9C3-B7F0F7415B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B412A8-4D8D-4E50-B9C3-B7F0F7415B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F447B8FE-B9BE-43BF-A77A-E87D7E849496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F447B8FE-B9BE-43BF-A77A-E87D7E849496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F447B8FE-B9BE-43BF-A77A-E87D7E849496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F447B8FE-B9BE-43BF-A77A-E87D7E849496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{024D7042-4D21-4A9A-92C4-99A30E5D959A} = {1603DCAE-56B3-4DDE-8E84-8F93661B7424}
+		{969BC7F6-1CC4-4800-9113-236F09C11DDD} = {4211B23F-F5BA-404D-83A6-33CCFFD06376}
+		{334DA624-B5FF-4D82-B6B9-F8469C775BA0} = {7568FE87-9114-4092-A78B-3AB373718682}
+		{C0B412A8-4D8D-4E50-B9C3-B7F0F7415B1A} = {7568FE87-9114-4092-A78B-3AB373718682}
+		{F447B8FE-B9BE-43BF-A77A-E87D7E849496} = {DB355373-4490-41DA-A452-F8B25F090E6D}
+	EndGlobalSection
+EndGlobal

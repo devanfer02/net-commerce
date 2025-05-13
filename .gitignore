@@ -1,0 +1,5 @@
+*bin
+*obj
+.idea
+todo.txt
+NetCommerce.sln.DotSettings.user
